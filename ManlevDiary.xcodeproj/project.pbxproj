@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A021F52175BEB900CED3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A021F42175BEB900CED3C1 /* AppDelegate.swift */; };
+		34A021F72175BEB900CED3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A021F62175BEB900CED3C1 /* ViewController.swift */; };
+		34A021FA2175BEB900CED3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A021F82175BEB900CED3C1 /* Main.storyboard */; };
+		34A021FD2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34A021FB2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld */; };
+		34A021FF2175BEBA00CED3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A021FE2175BEBA00CED3C1 /* Assets.xcassets */; };
+		34A022022175BEBA00CED3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A022002175BEBA00CED3C1 /* LaunchScreen.storyboard */; };
+		34A0220D2175BEBA00CED3C1 /* ManlevDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0220C2175BEBA00CED3C1 /* ManlevDiaryTests.swift */; };
+		34A022182175BEBA00CED3C1 /* ManlevDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A022172175BEBA00CED3C1 /* ManlevDiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A022092175BEBA00CED3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A021E92175BEB900CED3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A021F02175BEB900CED3C1;
+			remoteInfo = ManlevDiary;
+		};
+		34A022142175BEBA00CED3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A021E92175BEB900CED3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A021F02175BEB900CED3C1;
+			remoteInfo = ManlevDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A021F12175BEB900CED3C1 /* ManlevDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManlevDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A021F42175BEB900CED3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34A021F62175BEB900CED3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34A021F92175BEB900CED3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A021FC2175BEB900CED3C1 /* ManlevDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManlevDiary.xcdatamodel; sourceTree = "<group>"; };
+		34A021FE2175BEBA00CED3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A022012175BEBA00CED3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A022032175BEBA00CED3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A022082175BEBA00CED3C1 /* ManlevDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManlevDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A0220C2175BEBA00CED3C1 /* ManlevDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManlevDiaryTests.swift; sourceTree = "<group>"; };
+		34A0220E2175BEBA00CED3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A022132175BEBA00CED3C1 /* ManlevDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManlevDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A022172175BEBA00CED3C1 /* ManlevDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManlevDiaryUITests.swift; sourceTree = "<group>"; };
+		34A022192175BEBA00CED3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A021EE2175BEB900CED3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A022052175BEBA00CED3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A022102175BEBA00CED3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A021E82175BEB900CED3C1 = {
+			isa = PBXGroup;
+			children = (
+				34A021F32175BEB900CED3C1 /* ManlevDiary */,
+				34A0220B2175BEBA00CED3C1 /* ManlevDiaryTests */,
+				34A022162175BEBA00CED3C1 /* ManlevDiaryUITests */,
+				34A021F22175BEB900CED3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A021F22175BEB900CED3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A021F12175BEB900CED3C1 /* ManlevDiary.app */,
+				34A022082175BEBA00CED3C1 /* ManlevDiaryTests.xctest */,
+				34A022132175BEBA00CED3C1 /* ManlevDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A021F32175BEB900CED3C1 /* ManlevDiary */ = {
+			isa = PBXGroup;
+			children = (
+				34A021F42175BEB900CED3C1 /* AppDelegate.swift */,
+				34A021F62175BEB900CED3C1 /* ViewController.swift */,
+				34A021F82175BEB900CED3C1 /* Main.storyboard */,
+				34A021FE2175BEBA00CED3C1 /* Assets.xcassets */,
+				34A022002175BEBA00CED3C1 /* LaunchScreen.storyboard */,
+				34A022032175BEBA00CED3C1 /* Info.plist */,
+				34A021FB2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld */,
+			);
+			path = ManlevDiary;
+			sourceTree = "<group>";
+		};
+		34A0220B2175BEBA00CED3C1 /* ManlevDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A0220C2175BEBA00CED3C1 /* ManlevDiaryTests.swift */,
+				34A0220E2175BEBA00CED3C1 /* Info.plist */,
+			);
+			path = ManlevDiaryTests;
+			sourceTree = "<group>";
+		};
+		34A022162175BEBA00CED3C1 /* ManlevDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A022172175BEBA00CED3C1 /* ManlevDiaryUITests.swift */,
+				34A022192175BEBA00CED3C1 /* Info.plist */,
+			);
+			path = ManlevDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A021F02175BEB900CED3C1 /* ManlevDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A0221C2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiary" */;
+			buildPhases = (
+				34A021ED2175BEB900CED3C1 /* Sources */,
+				34A021EE2175BEB900CED3C1 /* Frameworks */,
+				34A021EF2175BEB900CED3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManlevDiary;
+			productName = ManlevDiary;
+			productReference = 34A021F12175BEB900CED3C1 /* ManlevDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A022072175BEBA00CED3C1 /* ManlevDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A0221F2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryTests" */;
+			buildPhases = (
+				34A022042175BEBA00CED3C1 /* Sources */,
+				34A022052175BEBA00CED3C1 /* Frameworks */,
+				34A022062175BEBA00CED3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A0220A2175BEBA00CED3C1 /* PBXTargetDependency */,
+			);
+			name = ManlevDiaryTests;
+			productName = ManlevDiaryTests;
+			productReference = 34A022082175BEBA00CED3C1 /* ManlevDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A022122175BEBA00CED3C1 /* ManlevDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A022222175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryUITests" */;
+			buildPhases = (
+				34A0220F2175BEBA00CED3C1 /* Sources */,
+				34A022102175BEBA00CED3C1 /* Frameworks */,
+				34A022112175BEBA00CED3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A022152175BEBA00CED3C1 /* PBXTargetDependency */,
+			);
+			name = ManlevDiaryUITests;
+			productName = ManlevDiaryUITests;
+			productReference = 34A022132175BEBA00CED3C1 /* ManlevDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A021E92175BEB900CED3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Manlev;
+				TargetAttributes = {
+					34A021F02175BEB900CED3C1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					34A022072175BEBA00CED3C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 34A021F02175BEB900CED3C1;
+					};
+					34A022122175BEBA00CED3C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 34A021F02175BEB900CED3C1;
+					};
+				};
+			};
+			buildConfigurationList = 34A021EC2175BEB900CED3C1 /* Build configuration list for PBXProject "ManlevDiary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A021E82175BEB900CED3C1;
+			productRefGroup = 34A021F22175BEB900CED3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A021F02175BEB900CED3C1 /* ManlevDiary */,
+				34A022072175BEBA00CED3C1 /* ManlevDiaryTests */,
+				34A022122175BEBA00CED3C1 /* ManlevDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A021EF2175BEB900CED3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A022022175BEBA00CED3C1 /* LaunchScreen.storyboard in Resources */,
+				34A021FF2175BEBA00CED3C1 /* Assets.xcassets in Resources */,
+				34A021FA2175BEB900CED3C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A022062175BEBA00CED3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A022112175BEBA00CED3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A021ED2175BEB900CED3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A021F72175BEB900CED3C1 /* ViewController.swift in Sources */,
+				34A021F52175BEB900CED3C1 /* AppDelegate.swift in Sources */,
+				34A021FD2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A022042175BEBA00CED3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A0220D2175BEBA00CED3C1 /* ManlevDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A0220F2175BEBA00CED3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A022182175BEBA00CED3C1 /* ManlevDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A0220A2175BEBA00CED3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A021F02175BEB900CED3C1 /* ManlevDiary */;
+			targetProxy = 34A022092175BEBA00CED3C1 /* PBXContainerItemProxy */;
+		};
+		34A022152175BEBA00CED3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A021F02175BEB900CED3C1 /* ManlevDiary */;
+			targetProxy = 34A022142175BEBA00CED3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A021F82175BEB900CED3C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A021F92175BEB900CED3C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A022002175BEBA00CED3C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A022012175BEBA00CED3C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A0221A2175BEBA00CED3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34A0221B2175BEBA00CED3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A0221D2175BEBA00CED3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L794N2VSKC;
+				INFOPLIST_FILE = ManlevDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.Manlev2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A0221E2175BEBA00CED3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L794N2VSKC;
+				INFOPLIST_FILE = ManlevDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.Manlev2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34A022202175BEBA00CED3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ManlevDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.ManlevDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManlevDiary.app/ManlevDiary";
+			};
+			name = Debug;
+		};
+		34A022212175BEBA00CED3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ManlevDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.ManlevDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManlevDiary.app/ManlevDiary";
+			};
+			name = Release;
+		};
+		34A022232175BEBA00CED3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ManlevDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.ManlevDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ManlevDiary;
+			};
+			name = Debug;
+		};
+		34A022242175BEBA00CED3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ManlevDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.ManlevDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ManlevDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A021EC2175BEB900CED3C1 /* Build configuration list for PBXProject "ManlevDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A0221A2175BEBA00CED3C1 /* Debug */,
+				34A0221B2175BEBA00CED3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A0221C2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A0221D2175BEBA00CED3C1 /* Debug */,
+				34A0221E2175BEBA00CED3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A0221F2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A022202175BEBA00CED3C1 /* Debug */,
+				34A022212175BEBA00CED3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A022222175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A022232175BEBA00CED3C1 /* Debug */,
+				34A022242175BEBA00CED3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34A021FB2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34A021FC2175BEB900CED3C1 /* ManlevDiary.xcdatamodel */,
+			);
+			currentVersion = 34A021FC2175BEB900CED3C1 /* ManlevDiary.xcdatamodel */;
+			path = ManlevDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34A021E92175BEB900CED3C1 /* Project object */;
+}
