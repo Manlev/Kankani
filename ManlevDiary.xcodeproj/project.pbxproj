@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34A021F12175BEB900CED3C1 /* ManlevDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManlevDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A021F12175BEB900CED3C1 /* KanKani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanKani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A021F42175BEB900CED3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A021F62175BEB900CED3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34A021F92175BEB900CED3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		34A021F22175BEB900CED3C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34A021F12175BEB900CED3C1 /* ManlevDiary.app */,
+				34A021F12175BEB900CED3C1 /* KanKani.app */,
 				34A022082175BEBA00CED3C1 /* ManlevDiaryTests.xctest */,
 				34A022132175BEBA00CED3C1 /* ManlevDiaryUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = ManlevDiary;
 			productName = ManlevDiary;
-			productReference = 34A021F12175BEB900CED3C1 /* ManlevDiary.app */;
+			productReference = 34A021F12175BEB900CED3C1 /* KanKani.app */;
 			productType = "com.apple.product-type.application";
 		};
 		34A022072175BEBA00CED3C1 /* ManlevDiaryTests */ = {
@@ -446,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.Manlev2018;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KanKani;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.manlev.Manlev2018;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KanKani;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
