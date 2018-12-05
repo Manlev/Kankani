@@ -15,6 +15,9 @@
 		34A022022175BEBA00CED3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A022002175BEBA00CED3C1 /* LaunchScreen.storyboard */; };
 		34A0220D2175BEBA00CED3C1 /* ManlevDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0220C2175BEBA00CED3C1 /* ManlevDiaryTests.swift */; };
 		34A022182175BEBA00CED3C1 /* ManlevDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A022172175BEBA00CED3C1 /* ManlevDiaryUITests.swift */; };
+		9A93FDEBC3D259624C6676BB /* Pods_ManlevDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1017F33F8621F0B07ABCE3FE /* Pods_ManlevDiary.framework */; };
+		9D956A9485E0B48DB33EF37A /* Pods_ManlevDiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A38243E5B3674B2533E7BE /* Pods_ManlevDiaryUITests.framework */; };
+		C4DBD5656987F369CDD76310 /* Pods_ManlevDiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A36F97232B2D0AAC46C814B /* Pods_ManlevDiaryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A38243E5B3674B2533E7BE /* Pods_ManlevDiaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManlevDiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1017F33F8621F0B07ABCE3FE /* Pods_ManlevDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManlevDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A021F12175BEB900CED3C1 /* KanKani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanKani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A021F42175BEB900CED3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A021F62175BEB900CED3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		34A022132175BEBA00CED3C1 /* ManlevDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManlevDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A022172175BEBA00CED3C1 /* ManlevDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManlevDiaryUITests.swift; sourceTree = "<group>"; };
 		34A022192175BEBA00CED3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36253E46608AD0457F4718EE /* Pods-ManlevDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiaryUITests/Pods-ManlevDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A36F97232B2D0AAC46C814B /* Pods_ManlevDiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManlevDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEE6A5D174C86FB398355DF /* Pods-ManlevDiaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiaryUITests/Pods-ManlevDiaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8A60229483A1320182ABB64 /* Pods-ManlevDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiary/Pods-ManlevDiary.release.xcconfig"; sourceTree = "<group>"; };
+		BC1A439A85B5D1CFFDEF3981 /* Pods-ManlevDiaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiaryTests/Pods-ManlevDiaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD082B6B30110E559FADAD5E /* Pods-ManlevDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiary/Pods-ManlevDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5F0E7D3BF22DDD9E773479 /* Pods-ManlevDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManlevDiaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManlevDiaryTests/Pods-ManlevDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A93FDEBC3D259624C6676BB /* Pods_ManlevDiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DBD5656987F369CDD76310 /* Pods_ManlevDiaryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D956A9485E0B48DB33EF37A /* Pods_ManlevDiaryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19A2F18B820AEF05FF0977B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1017F33F8621F0B07ABCE3FE /* Pods_ManlevDiary.framework */,
+				4A36F97232B2D0AAC46C814B /* Pods_ManlevDiaryTests.framework */,
+				09A38243E5B3674B2533E7BE /* Pods_ManlevDiaryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29F3A5ED048C4D1539D5B1D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD082B6B30110E559FADAD5E /* Pods-ManlevDiary.debug.xcconfig */,
+				A8A60229483A1320182ABB64 /* Pods-ManlevDiary.release.xcconfig */,
+				BC1A439A85B5D1CFFDEF3981 /* Pods-ManlevDiaryTests.debug.xcconfig */,
+				CD5F0E7D3BF22DDD9E773479 /* Pods-ManlevDiaryTests.release.xcconfig */,
+				8DEE6A5D174C86FB398355DF /* Pods-ManlevDiaryUITests.debug.xcconfig */,
+				36253E46608AD0457F4718EE /* Pods-ManlevDiaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34A021E82175BEB900CED3C1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				34A0220B2175BEBA00CED3C1 /* ManlevDiaryTests */,
 				34A022162175BEBA00CED3C1 /* ManlevDiaryUITests */,
 				34A021F22175BEB900CED3C1 /* Products */,
+				29F3A5ED048C4D1539D5B1D1 /* Pods */,
+				19A2F18B820AEF05FF0977B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A0221C2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiary" */;
 			buildPhases = (
+				7EAAEDA62FBFDBE051192376 /* [CP] Check Pods Manifest.lock */,
 				34A021ED2175BEB900CED3C1 /* Sources */,
 				34A021EE2175BEB900CED3C1 /* Frameworks */,
 				34A021EF2175BEB900CED3C1 /* Resources */,
+				5B9F4D50F28F0CEC2F143893 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A0221F2175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryTests" */;
 			buildPhases = (
+				39819D0648D0C472B58995E2 /* [CP] Check Pods Manifest.lock */,
 				34A022042175BEBA00CED3C1 /* Sources */,
 				34A022052175BEBA00CED3C1 /* Frameworks */,
 				34A022062175BEBA00CED3C1 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A022222175BEBA00CED3C1 /* Build configuration list for PBXNativeTarget "ManlevDiaryUITests" */;
 			buildPhases = (
+				47408D50E082E5D308D06C50 /* [CP] Check Pods Manifest.lock */,
 				34A0220F2175BEBA00CED3C1 /* Sources */,
 				34A022102175BEBA00CED3C1 /* Frameworks */,
 				34A022112175BEBA00CED3C1 /* Resources */,
@@ -253,6 +297,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39819D0648D0C472B58995E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManlevDiaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47408D50E082E5D308D06C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManlevDiaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9F4D50F28F0CEC2F143893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ManlevDiary/Pods-ManlevDiary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManlevDiary/Pods-ManlevDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EAAEDA62FBFDBE051192376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManlevDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34A021ED2175BEB900CED3C1 /* Sources */ = {
@@ -434,6 +569,7 @@
 		};
 		34A0221D2175BEBA00CED3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD082B6B30110E559FADAD5E /* Pods-ManlevDiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -455,6 +591,7 @@
 		};
 		34A0221E2175BEBA00CED3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A60229483A1320182ABB64 /* Pods-ManlevDiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -476,6 +613,7 @@
 		};
 		34A022202175BEBA00CED3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1A439A85B5D1CFFDEF3981 /* Pods-ManlevDiaryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +634,7 @@
 		};
 		34A022212175BEBA00CED3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5F0E7D3BF22DDD9E773479 /* Pods-ManlevDiaryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +655,7 @@
 		};
 		34A022232175BEBA00CED3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DEE6A5D174C86FB398355DF /* Pods-ManlevDiaryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +675,7 @@
 		};
 		34A022242175BEBA00CED3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36253E46608AD0457F4718EE /* Pods-ManlevDiaryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
