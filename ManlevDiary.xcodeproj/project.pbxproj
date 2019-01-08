@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347344FC21E4B60B00B006D2 /* NoteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347344FB21E4B60B00B006D2 /* NoteClass.swift */; };
 		34A021F52175BEB900CED3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A021F42175BEB900CED3C1 /* AppDelegate.swift */; };
 		34A021F72175BEB900CED3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A021F62175BEB900CED3C1 /* ViewController.swift */; };
 		34A021FA2175BEB900CED3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A021F82175BEB900CED3C1 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		09A38243E5B3674B2533E7BE /* Pods_ManlevDiaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManlevDiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1017F33F8621F0B07ABCE3FE /* Pods_ManlevDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManlevDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347344FB21E4B60B00B006D2 /* NoteClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteClass.swift; sourceTree = "<group>"; };
 		34A021F12175BEB900CED3C1 /* KanKani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanKani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A021F42175BEB900CED3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A021F62175BEB900CED3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				34A022002175BEBA00CED3C1 /* LaunchScreen.storyboard */,
 				34A022032175BEBA00CED3C1 /* Info.plist */,
 				34A021FB2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld */,
+				347344FB21E4B60B00B006D2 /* NoteClass.swift */,
 			);
 			path = ManlevDiary;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			files = (
 				34A021F72175BEB900CED3C1 /* ViewController.swift in Sources */,
 				34A021F52175BEB900CED3C1 /* AppDelegate.swift in Sources */,
+				347344FC21E4B60B00B006D2 /* NoteClass.swift in Sources */,
 				34A021FD2175BEB900CED3C1 /* ManlevDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
