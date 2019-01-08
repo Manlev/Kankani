@@ -11,15 +11,15 @@ import UIKit
 
 class Note {
     var Category:Int = 0
-    var ShowDate:Date = Date()  // 노트에서 표시할 날짜
-    var TimeStamp:Date = Date() // 노트 생성시각
+    var ShowDate:Date = Date()  // Date to display
+    var TimeStamp:Date = Date() // Created time
     var Title:String = String()
-    var Contents:String = String()  // 추후 다양한 데이터를 담을 수 있는 타입으로 변경 필요
+    var Contents:String = String()  // Should be replaced with a type that can hold various data
 }
 
 class Category {
     var Name:String = String()
-    var Info:String = String()  // 추후 타입 변경 가능성 있음
+    var Info:String = String()  // Might be replaced
     var Color:UIColor = UIColor()
     var Notes = Array<Note>()
 }
