@@ -4,7 +4,8 @@
 target 'ManlevDiary' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-    pod 'FSCalendar'
+    pod 'FSCalendar'    # Calendar Library / MIT License
+    pod 'FMDB'          # SQLite Object-C Wrapper / MIT License
   # Pods for ManlevDiary
 
   target 'ManlevDiaryTests' do

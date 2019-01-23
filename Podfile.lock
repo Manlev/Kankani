@@ -1,16 +1,22 @@
 PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - FSCalendar (2.8.0)
 
 DEPENDENCIES:
+  - FMDB
   - FSCalendar
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FMDB
     - FSCalendar
 
 SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
 
-PODFILE CHECKSUM: d1e154c20b37453d5fa94effef327c9dfb239bce
+PODFILE CHECKSUM: 1ca0b9c28603a180ffcd80cb0cf4be6102ea3634
 
 COCOAPODS: 1.5.3

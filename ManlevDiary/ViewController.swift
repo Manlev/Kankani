@@ -8,15 +8,16 @@
 
 import UIKit
 import FSCalendar
+import FMDB
 
 class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // getting database path
-        let dbPath:String
+
+        // get database path
+        let dbPath : String
         do {
             dbPath = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("Kankani.sqlite").path
         } catch {
@@ -24,18 +25,21 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
             return
         }
 
-        // open database
-        let db: SQLiteDatabase
-        do {
-            db = try SQLiteDatabase.open(path: dbPath)
-            print("Successfully opened connection to database.")
-        } catch SQLiteError.OpenDatabase(let message) {
-            print("Unable to open database. \(message)")
-            return
-        } catch {
-            print("Unknown Error. \(error)")
-            return
+        // open database and create db and tables if db does not exists
+        if !FileManager.default.fileExists(atPath: dbPath) {
+            let kankaniDB = FMDatabase(path: dbPath)
+            if kankaniDB.open() {
+                let categoriesTableCreateSql = "CREATE TABLE IF NOT EXISTS categories(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL)"
+                let notesTableCreateSql = "CREATE TABLE IF NOT EXISTS notes(id INTEGER PRIMARY KEY AUTOINCREMENT, category INTEGER NOT NULL, title TEXT NOT NULL, contents TEXT, showDate TEXT, createdDate TEXT, FOREIGN KEY (category) REFERENCES categories(id)"
+                if !(kankaniDB.executeStatements(categoriesTableCreateSql) || !(kankaniDB.executeStatements(notesTableCreateSql))) {
+                    print("Failed to create tables : \(kankaniDB.lastErrorMessage())")
+                } else {
+                    print("Created categories and notes table to Kankani.sqlite")
+                }
+                kankaniDB.close()
+            } else {
+                print("Failed to open DB : \(kankaniDB.lastErrorMessage())")
+            }
         }
     }
 }
-
