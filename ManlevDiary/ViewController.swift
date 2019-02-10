@@ -29,17 +29,20 @@ class ViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate
         if !FileManager.default.fileExists(atPath: dbPath) {
             let kankaniDB = FMDatabase(path: dbPath)
             if kankaniDB.open() {
-                let categoriesTableCreateSql = "CREATE TABLE IF NOT EXISTS categories(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL)"
+                let categoriesTableCreateSql = "CREATE TABLE IF NOT EXISTS categories(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, description TEXT, color INTEGER NOT NULL, FOREIGN KEY (color) REFERENCES colors(id))"
                 let notesTableCreateSql = "CREATE TABLE IF NOT EXISTS notes(id INTEGER PRIMARY KEY AUTOINCREMENT, category INTEGER NOT NULL, title TEXT NOT NULL, contents TEXT, showDate TEXT, createdDate TEXT, FOREIGN KEY (category) REFERENCES categories(id)"
-                if !(kankaniDB.executeStatements(categoriesTableCreateSql) || !(kankaniDB.executeStatements(notesTableCreateSql))) {
+                let colorsTableCreateSql = "CREATE TABLE IF NOT EXISTS colors(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, rgba-value INTEGER NOT NULL"
+                if !(kankaniDB.executeStatements(categoriesTableCreateSql) || !(kankaniDB.executeStatements(notesTableCreateSql)) || !(kankaniDB.executeStatements(colorsTableCreateSql))) {
                     print("Failed to create tables : \(kankaniDB.lastErrorMessage())")
                 } else {
-                    print("Created categories and notes table to Kankani.sqlite")
+                    print("Created tables to Kankani.sqlite")
                 }
                 kankaniDB.close()
             } else {
                 print("Failed to open DB : \(kankaniDB.lastErrorMessage())")
             }
+        } else {
+            print("Kankani.sqlite already exists")
         }
     }
 }
